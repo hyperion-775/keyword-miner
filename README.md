@@ -4,7 +4,7 @@ A program using Pandas which has the capability to use given data, filter throug
 You will need either python or an IDE for usage.
 You will also need to install pandas with pip.
 # Preparation
-A few things need to be done to the data before the program is run. First, the SOE file must be created. In order to create the SOE file, a new excel spreadsheet must be made, in which there will be two columns, the SOE ID, and the SOE keywords. They will formatted as such: 
+A few things need to be done to the data before the program is run. First, the “Ticket Notes Native” column and “Ticket Notes Translated” column should be combined, so that all text will be in English. These columns are also known as secondary summations, and if this is not in the data being used this step should be ignored. After this, the SOE file must be created. In order to create the SOE file, a new excel spreadsheet must be made, in which there will be two columns, the SOE ID, and the SOE keywords. They will formatted as such:
 | BLANK     | BLANK                    |
 | --------- | ------------------------ |
 | SOE ID 1  | comma separated keywords |
@@ -12,7 +12,8 @@ A few things need to be done to the data before the program is run. First, the S
 | SOE ID 3  | comma separated keywords |
 | SOE ID 4  | comma separated keywords |
 | SOE ID 5  | comma separated keywords |
-| SOE ID 6  | comma separated keywords | and so forth.
+| SOE ID 6  | comma separated keywords |
+| and so on | and so on                |
 
 ## Keywords Formatting
 - The keyword list MUST be comma seperated, and certain phrases must be phrased
